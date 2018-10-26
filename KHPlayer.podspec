@@ -31,10 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'KHPlayer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'KHPlayer' => ['KHPlayer/Assets/*.png']
-  # }
+
+
+  s.resource_bundles = {
+    'KHPlayer' => ['KHPlayer/Classes/*.xib']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
