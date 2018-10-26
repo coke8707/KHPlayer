@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KHPlayer_Tests' do
+  pod 'KHPlayer', :path => '../'
+  
+  
+end

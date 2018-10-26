@@ -1,0 +1,16 @@
+PODS:
+  - KHPlayer (0.1.0)
+
+DEPENDENCIES:
+  - KHPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  KHPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KHPlayer: 3e26ce56f717ce2f22ef7f5cdbba77ec38d40b1e
+
+PODFILE CHECKSUM: 6c99cab8207e0d162c7b39688c14b8e1936dd16e
+
+COCOAPODS: 1.6.0.beta.2

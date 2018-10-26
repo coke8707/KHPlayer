@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KHPlayListView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ax-UF-4X9">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="EZm-bf-tdY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PlayList" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32D-BR-KRw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="90"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="32D-BR-KRw" firstAttribute="leading" secondItem="EZm-bf-tdY" secondAttribute="leading" id="97S-xo-J82"/>
+                            <constraint firstItem="32D-BR-KRw" firstAttribute="top" secondItem="EZm-bf-tdY" secondAttribute="top" id="VVX-ue-qrX"/>
+                            <constraint firstAttribute="bottom" secondItem="32D-BR-KRw" secondAttribute="bottom" id="bf8-E4-XcD"/>
+                            <constraint firstAttribute="trailing" secondItem="32D-BR-KRw" secondAttribute="trailing" id="m3v-Qg-Jyx"/>
+                        </constraints>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3ax-UF-4X9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="61q-SP-wqp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3ax-UF-4X9" secondAttribute="trailing" id="9p5-Ll-cf0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3ax-UF-4X9" secondAttribute="bottom" id="FBy-2I-CXY"/>
+                <constraint firstItem="3ax-UF-4X9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NOQ-MU-9xP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>
