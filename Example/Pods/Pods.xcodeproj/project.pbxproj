@@ -11,13 +11,11 @@
 		259E14D6CA15B220F9BC6C574B8DDF31 /* Pods-KHPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9232EE5954B47816778CA2E10920A55D /* Pods-KHPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57D6F24BA4757E70AB0F6B1093A5F340 /* KHPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4401C1EBCBA54AB239FA0FC318A0BA17 /* KHPlayer-dummy.m */; };
 		79070660D4EE681AFBF3C1B83E221CF9 /* KHPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF362244000EC1D0F2D2A265DEDFA43 /* KHPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A214D588218309DD0041B1CE /* KHControlOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214D560218309DC0041B1CE /* KHControlOverlayView.xib */; };
 		A214D589218309DD0041B1CE /* KHControlOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = A214D561218309DC0041B1CE /* KHControlOverlayView.h */; };
 		A214D58A218309DD0041B1CE /* BSXUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = A214D563218309DC0041B1CE /* BSXUIView.h */; };
 		A214D58B218309DD0041B1CE /* UIView+BSXMaterialAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A214D564218309DC0041B1CE /* UIView+BSXMaterialAnimation.m */; };
 		A214D58C218309DD0041B1CE /* BSXUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A214D565218309DC0041B1CE /* BSXUIView.m */; };
 		A214D58D218309DD0041B1CE /* UIView+BSXMaterialAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A214D566218309DC0041B1CE /* UIView+BSXMaterialAnimation.h */; };
-		A214D58E218309DD0041B1CE /* KHMoreVideo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214D567218309DC0041B1CE /* KHMoreVideo.xib */; };
 		A214D58F218309DD0041B1CE /* ELConstraintsMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A214D569218309DC0041B1CE /* ELConstraintsMaker.h */; };
 		A214D590218309DD0041B1CE /* UIView+EasyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A214D56A218309DC0041B1CE /* UIView+EasyLayout.h */; };
 		A214D591218309DD0041B1CE /* ELLayoutConstraintModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A214D56B218309DC0041B1CE /* ELLayoutConstraintModel.h */; };
@@ -45,10 +43,12 @@
 		A214D5A7218309DD0041B1CE /* KHPlayerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A214D581218309DD0041B1CE /* KHPlayerUtil.h */; };
 		A214D5A8218309DD0041B1CE /* KHPlayerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A214D582218309DD0041B1CE /* KHPlayerUtil.m */; };
 		A214D5A9218309DD0041B1CE /* KHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A214D583218309DD0041B1CE /* KHTabBarController.m */; };
-		A214D5AA218309DD0041B1CE /* KHPlayListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214D584218309DD0041B1CE /* KHPlayListView.xib */; };
-		A214D5AB218309DD0041B1CE /* KHRecommandListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214D585218309DD0041B1CE /* KHRecommandListView.xib */; };
 		A214D5AC218309DD0041B1CE /* KHNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A214D586218309DD0041B1CE /* KHNavigationController.h */; };
 		A214D5AD218309DD0041B1CE /* KHControlOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A214D587218309DD0041B1CE /* KHControlOverlayView.m */; };
+		A214D5B22183113F0041B1CE /* KHControlOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214D5AE2183113E0041B1CE /* KHControlOverlayView.xib */; };
+		A214D5B32183113F0041B1CE /* KHMoreVideo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214D5AF2183113F0041B1CE /* KHMoreVideo.xib */; };
+		A214D5B42183113F0041B1CE /* KHPlayListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214D5B02183113F0041B1CE /* KHPlayListView.xib */; };
+		A214D5B52183113F0041B1CE /* KHRecommandListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A214D5B12183113F0041B1CE /* KHRecommandListView.xib */; };
 		E9A9C70EAD2B4FAD17F845D52D13DB6C /* Pods-KHPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D828A37DB3A138B70C189FDC0DA915F3 /* Pods-KHPlayer_Tests-dummy.m */; };
 		FE26F8B581FCEEF9827000F9C15B6C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -77,13 +77,11 @@
 		8B37563921E0F8C0C8AFA4260793212A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9232EE5954B47816778CA2E10920A55D /* Pods-KHPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9F3F7E9ACC5CD9E88B20BA8AE0D955CF /* Pods-KHPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A214D560218309DC0041B1CE /* KHControlOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KHControlOverlayView.xib; path = KHPlayer/Classes/KHControlOverlayView.xib; sourceTree = "<group>"; };
 		A214D561218309DC0041B1CE /* KHControlOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KHControlOverlayView.h; path = KHPlayer/Classes/KHControlOverlayView.h; sourceTree = "<group>"; };
 		A214D563218309DC0041B1CE /* BSXUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSXUIView.h; sourceTree = "<group>"; };
 		A214D564218309DC0041B1CE /* UIView+BSXMaterialAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSXMaterialAnimation.m"; sourceTree = "<group>"; };
 		A214D565218309DC0041B1CE /* BSXUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSXUIView.m; sourceTree = "<group>"; };
 		A214D566218309DC0041B1CE /* UIView+BSXMaterialAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSXMaterialAnimation.h"; sourceTree = "<group>"; };
-		A214D567218309DC0041B1CE /* KHMoreVideo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KHMoreVideo.xib; path = KHPlayer/Classes/KHMoreVideo.xib; sourceTree = "<group>"; };
 		A214D569218309DC0041B1CE /* ELConstraintsMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELConstraintsMaker.h; sourceTree = "<group>"; };
 		A214D56A218309DC0041B1CE /* UIView+EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
 		A214D56B218309DC0041B1CE /* ELLayoutConstraintModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELLayoutConstraintModel.h; sourceTree = "<group>"; };
@@ -111,10 +109,12 @@
 		A214D581218309DD0041B1CE /* KHPlayerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KHPlayerUtil.h; path = KHPlayer/Classes/KHPlayerUtil.h; sourceTree = "<group>"; };
 		A214D582218309DD0041B1CE /* KHPlayerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KHPlayerUtil.m; path = KHPlayer/Classes/KHPlayerUtil.m; sourceTree = "<group>"; };
 		A214D583218309DD0041B1CE /* KHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KHTabBarController.m; path = KHPlayer/Classes/KHTabBarController.m; sourceTree = "<group>"; };
-		A214D584218309DD0041B1CE /* KHPlayListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KHPlayListView.xib; path = KHPlayer/Classes/KHPlayListView.xib; sourceTree = "<group>"; };
-		A214D585218309DD0041B1CE /* KHRecommandListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KHRecommandListView.xib; path = KHPlayer/Classes/KHRecommandListView.xib; sourceTree = "<group>"; };
 		A214D586218309DD0041B1CE /* KHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KHNavigationController.h; path = KHPlayer/Classes/KHNavigationController.h; sourceTree = "<group>"; };
 		A214D587218309DD0041B1CE /* KHControlOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KHControlOverlayView.m; path = KHPlayer/Classes/KHControlOverlayView.m; sourceTree = "<group>"; };
+		A214D5AE2183113E0041B1CE /* KHControlOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KHControlOverlayView.xib; path = KHPlayer/Assets/KHControlOverlayView.xib; sourceTree = "<group>"; };
+		A214D5AF2183113F0041B1CE /* KHMoreVideo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KHMoreVideo.xib; path = KHPlayer/Assets/KHMoreVideo.xib; sourceTree = "<group>"; };
+		A214D5B02183113F0041B1CE /* KHPlayListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KHPlayListView.xib; path = KHPlayer/Assets/KHPlayListView.xib; sourceTree = "<group>"; };
+		A214D5B12183113F0041B1CE /* KHRecommandListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KHRecommandListView.xib; path = KHPlayer/Assets/KHRecommandListView.xib; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5B97388E74617C6891639838D966AAB /* KHPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KHPlayer-Info.plist"; sourceTree = "<group>"; };
 		D4AE6A4EAEA4F3568BD2176D96A3BF03 /* Pods-KHPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KHPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -170,10 +170,8 @@
 				A214D568218309DC0041B1CE /* EasyLayout */,
 				A214D561218309DC0041B1CE /* KHControlOverlayView.h */,
 				A214D587218309DD0041B1CE /* KHControlOverlayView.m */,
-				A214D560218309DC0041B1CE /* KHControlOverlayView.xib */,
 				A214D57A218309DC0041B1CE /* KHMoreVideo.h */,
 				A214D580218309DD0041B1CE /* KHMoreVideo.m */,
-				A214D567218309DC0041B1CE /* KHMoreVideo.xib */,
 				A214D586218309DD0041B1CE /* KHNavigationController.h */,
 				A214D579218309DC0041B1CE /* KHNavigationController.m */,
 				A214D57B218309DC0041B1CE /* KHPlayer.h */,
@@ -184,12 +182,14 @@
 				A214D575218309DC0041B1CE /* KHPlayerViewController.m */,
 				A214D57D218309DC0041B1CE /* KHPlayListView.h */,
 				A214D576218309DC0041B1CE /* KHPlayListView.m */,
-				A214D584218309DD0041B1CE /* KHPlayListView.xib */,
 				A214D577218309DC0041B1CE /* KHRecommandListView.h */,
 				A214D578218309DC0041B1CE /* KHRecommandListView.m */,
-				A214D585218309DD0041B1CE /* KHRecommandListView.xib */,
 				A214D57C218309DC0041B1CE /* KHTabBarController.h */,
 				A214D583218309DD0041B1CE /* KHTabBarController.m */,
+				A214D5AE2183113E0041B1CE /* KHControlOverlayView.xib */,
+				A214D5AF2183113F0041B1CE /* KHMoreVideo.xib */,
+				A214D5B02183113F0041B1CE /* KHPlayListView.xib */,
+				A214D5B12183113F0041B1CE /* KHRecommandListView.xib */,
 				E05501C00F6BC66CA0B2DCC69131263D /* Pod */,
 				7864B056038BDFE34446403417B420C5 /* Support Files */,
 			);
@@ -416,10 +416,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A214D5AB218309DD0041B1CE /* KHRecommandListView.xib in Resources */,
-				A214D588218309DD0041B1CE /* KHControlOverlayView.xib in Resources */,
-				A214D5AA218309DD0041B1CE /* KHPlayListView.xib in Resources */,
-				A214D58E218309DD0041B1CE /* KHMoreVideo.xib in Resources */,
+				A214D5B52183113F0041B1CE /* KHRecommandListView.xib in Resources */,
+				A214D5B22183113F0041B1CE /* KHControlOverlayView.xib in Resources */,
+				A214D5B42183113F0041B1CE /* KHPlayListView.xib in Resources */,
+				A214D5B32183113F0041B1CE /* KHMoreVideo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +491,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KHPlayer/KHPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KHPlayer/KHPlayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KHPlayer/KHPlayer.modulemap";
 				PRODUCT_MODULE_NAME = KHPlayer;
@@ -711,7 +711,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KHPlayer/KHPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KHPlayer/KHPlayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KHPlayer/KHPlayer.modulemap";
 				PRODUCT_MODULE_NAME = KHPlayer;

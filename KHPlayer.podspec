@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KHPlayer'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '간단 플레이어 (Simple Player)'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
 
   s.resource_bundles = {
-    'KHPlayer' => ['KHPlayer/Classes/*.xib']
+    'KHPlayer' => ['KHPlayer/Assets/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
